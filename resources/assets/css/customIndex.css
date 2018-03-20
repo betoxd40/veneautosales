@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/oswald-latin.woff2') format('woff2'),url('../font/oswald-latin.eot'), url('../font/oswald-latin.eot?#iefix') format('embedded-opentype'), url('.../font/oswald-latin.ttf') format('truetype'), url('../font/oswald-latin.svg#latolight') format('svg');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/oswald-latin-ext.woff2') format('woff2'),url('../font/oswald-latin-ext.eot'), url('../font/oswald-latin-ext.eot?#iefix') format('embedded-opentype'), url('../font/oswald-latin-ext.ttf') format('truetype'), url('../font/oswald-latin-ext.svg#latolight') format('svg');
+}
+
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/bitter-latin.woff2') format('woff2'),url('../font/bitter-latin.eot'), url('../font/bitter-latin.eot?#iefix') format('embedded-opentype'), url('.../font/bitter-latin.ttf') format('truetype'), url('../font/bitter-latin.svg#latolight') format('svg');
+}
+@font-face {
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/bitter-latin-ext.woff2') format('woff2'),url('../font/bitter-latin-ext.eot'), url('../font/bitter-latin-ext.eot?#iefix') format('embedded-opentype'), url('../font/bitter-latin-ext.ttf') format('truetype'), url('../font/bitter-latin-ext.svg#latolight') format('svg');
+}
+
+body{
+    font-family: Bitter;
+}
+h1,h2,h3 {
+    font-family: Oswald;
+    font-weight: bold;
+}
+h4,h5,p{
+    font-family: Bitter;
+    margin: 0;
+}
+
+.btn-primary{
+    background: transparent;
+    color: black;
+    border: solid 3px #e6af2e;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #e6af2e;
+    color: white;
+    border: solid 3px #e6af2e;
+}
+
+.btn-secundary{
+    background: transparent;
+    color: #e6af2e;
+    border: solid 3px #e6af2e;
+    transition: 0.3s;
+}
+
+.btn-secundary:hover {
+    background: #e6af2e;
+    color: white;
+    border: solid 3px #e6af2e;
+}
+
+.btn-primary h3{
+    margin: 0;
+}
+
+.boton{
+    cursor: pointer;
+}
+
+.hr-black{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #071013; /* old IE */
+    background-color: #071013; /* Modern Browsers */
+}
+
+.text-yellow{
+    color: #e6af2e;
+}
+
+#services{
+    background: #6d696a;
+    border-bottom: 10px solid #071013;
+}
+
+#specials-banner{
+    background: #a2a7a5;
+    height: 45vh;
+}
+
+#financing-warranty h2{
+    margin: 0;
+}
+
+#financing-warranty hr{
+    margin: 0;
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #071013; /* old IE */
+    background-color: #071013; /* Modern Browsers */
+}
+
+.nav-main{
+    border-bottom: solid 3px rgb(230,175,46);
+}
+.contact-form{
+    background: #192224;
+
+    position: relative;
+    z-index: 1;
+}
+
+#contact {
+    height: 100vh;
+}
+.wrapper {
+    position: relative;
+    margin:0;
+    padding: 0;
+}
+
+#over_map {
+    opacity: 0.9;
+    position: absolute;
+    background: #071013;
+    top: 10%;
+    left: 5%;
+    z-index: 99;
+}
+
+#footer{
+    background: #071013;
+}
+
+#footer a{
+    font-family: 'Oswald';
+}
+
+.copyright p{
+    font-family: 'Oswald';
+}
+
+.btn-search {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+}
+
+#banner-inventory{
+
+    border-bottom: 10px solid #071013;
+}
+
+#banner-inventory .container{
+    padding-top: 120px;
+}
+
+#banner-about-us{
+    width: 100%;
+    background: gray;
+    height: 100vh;
+}
+
+#banner-contact{
+    width: 100%;
+    background: gray;
+    height: 70vh;
+}
+
+
+#show-cars{
+    width: 100%;
+}
+.side-bar{
+    width: 25%;
+
+}
+
+.side-bar-wrapper{
+    background: #d3d3d3;
+    -webkit-box-shadow: -3px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -3px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: -3px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
+.hr-side-bar{
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: black; /* old IE */
+    background-color: black; /* Modern Browsers */
+}
+.input-range{
+    background: transparent;
+    font-family: 'Bitter';
+    font-weight: bold;
+    border: none;
+}
+.cars{
+    width: 75%;
+}
+
+.btn-drop {
+    background: transparent;
+    border: none;
+    font-family: 'Bitter';
+}
+
+
+.container-image {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-100%, -100%)
+}
+
+.overlay{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background: #e6af2e;
+}
+.container-image:hover .image {
+    opacity: 0.3;
+}
+
+.container-image:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+}
+
+.title-car{
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+.title-mileage{
+    font-size: 0.8rem;
+    color: #b3b3b3;
+    font-weight: 300;
+}
+
+header{background-color: #071013;}
+
+.info-header{
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.info-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-header ul>li:not(last-child){
+    margin-left: 5px;
+}
+
+.menu-bar{
+    background-color: white;
+    color: #071013;
+    padding: 30px 0 20px 0;
+    border-bottom: 3px solid #e6af2e;
+}
+
+.menu-list >li:first-child{
+    margin-right: 2.5em;
+}
+
+.menu-list{
+    margin:0;
+    font-weight: bold;
+}
+
+.carusel{
+
+    background-color: gray;
+    height: 480px;
+}
+
+.item{
+    font-size: 1.4em;
+    background-color: purple;
+}
+
+.nav-main{
+    padding-top: 1.4em;
+    background-color: white;
+}
+
+.nav-main-menu{
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-main a{
+    text-decoration: none;
+    color: #071013;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.boton{
+    background-color: #e6af2e;
+    border: none;
+    color: #071013;
+    display: block;
+}
+
+.card-modific{
+    background-color: #071013;
+    color: #e6af2e;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.cards{
+    padding: 4em 0 3em 0;
+}
+
+.cards a{
+    color: #071013;
+}
+
+.inputs{
+
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #071013;
+}
+
+.textarea{
+    border: none;
+    border-radius: 0px;
+    border: 2px solid #071013;
+    height: 300px;
+    resize:none;
+}
+
+.tit2{
+    font-size: 3.5em;
+}
+.location{
+    height: 300px;
+    background-color: #a2a7a5;
+}
+
+.title-location{
+    color: #e6af2e;
+    font-size: 4em;
+}
+
+.borde-col{
+    border-right: 2px solid #e6af2e;
+
+}
+
+.boton2{
+    border: 4px solid #071013;
+    color: #071013;
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 10px 20px 10px 20px;
+    border-radius: 1px;
+}
+
+
+
+
+
+

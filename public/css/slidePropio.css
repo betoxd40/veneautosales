@@ -1,0 +1,39 @@
+
+
+        #slide{
+            max-width: 380px;
+            min-width: 213px;
+            width: 100%;
+            overflow: hidden;
+        }
+        #secundary{
+            width: 100%;
+            max-width: 380px;
+            min-width: 250px;
+            overflow-wrap: break-word;
+            display:  flex;
+            transition: all 0.5s;
+            transform: translateX(0);
+        }
+
+        #secundary a img{
+            box-sizing: border-box;
+            width: 60px;
+            height: 60px;
+            padding: 3px;
+
+        }
+
+        #main:hover>#der,#main:hover>#izq{
+            
+            visibility: initial;
+        }
+
+
+        #main #der:hover,#main #izq:hover{
+            opacity: 1;
+        }
+        .foco{
+            border: solid 2px black;
+            border-radius: 5px;
+        }

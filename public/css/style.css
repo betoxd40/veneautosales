@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body{
+	background-color: #212832;
+	color: #F2F2F2;
+}
+
+.container{
+	margin-top: 3em;
+}
+
+#title{
+	font-family: 'Anton', sans-serif;
+	font-size: 3rem;
+	margin-left: 0;
+	border-bottom: 2px solid #F2F2F2;
+	padding: 0 0 5px 0;
+
+}
+
+.form-control{
+	border-radius: 0;
+}
+
+.form-group{
+	font-family: 'Anton', sans-serif;
+	font-size: 1.5rem;
+}
+
+.formulario{
+	margin-top: 12%;
+}
+
+.btn{
+	background-color: #F96C00;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F2F2F2;
+	font-size: 1.5rem;
+	width: 10rem;
+	height: 3.2rem;
+}
+
+@media (max-width: 576px) {
+
+	#title{
+		text-align: center;
+	}
+
+	img{
+		display: block;
+    	margin: auto;
+	}
+
+}
